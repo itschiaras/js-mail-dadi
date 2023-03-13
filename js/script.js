@@ -42,7 +42,7 @@ function checkList(e) {
         const container = document.querySelector('.container');
         let rdmNumber = Math.floor(Math.random() * 2000) + 1000;
         container.innerHTML = `<h2 class= "card bg-gold">Complimenti, confermiamo il suo invito alla serata degli Oscar!
-        Ecco il tuo biglietto:</h2>
+        Ecco il suo biglietto:</h2>
         <div class="ticket">
         <div class="ticket-content-wrapper">
         <h1 class="text-center mt-5">TICKET</h1>
