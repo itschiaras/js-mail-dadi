@@ -6,16 +6,16 @@
 
 // creo una lista di mail che possono accedere
 const allowedEmails = [
-"kaylahrussel@konopelski.com",
-"pdach@gmail.com",
-"mkoelpin@bernier.com",
-"ivy.sipes@hotmail.com",
-"jhickle@yahoo.com",
-"mann.mallory@grimes.com",
-"morissette.milan@reilly.com",
-"hmarquardt@yahoo.com",
-"sierra.schimmel@johns.com",
-"karelle.runolfsdottir@stokes.com"
+    "kaylahrussel@konopelski.com",
+    "pdach@gmail.com",
+    "mkoelpin@bernier.com",
+    "ivy.sipes@hotmail.com",
+    "jhickle@yahoo.com",
+    "mann.mallory@grimes.com",
+    "morissette.milan@reilly.com",
+    "hmarquardt@yahoo.com",
+    "sierra.schimmel@johns.com",
+    "karelle.runolfsdottir@stokes.com"
 ]
 
 // creo una const per prendere il bottone
@@ -42,6 +42,12 @@ function checkList(e) {
         console.log('non sei stato invitato');
     }
 }
+
+
+
+
+
+
 
 
 
