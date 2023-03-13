@@ -37,8 +37,26 @@ function checkList(e) {
     }
 
     if (validEmail) {
+        const form = document.querySelector('form');
+        form.classList.add('d-none');
+        const container = document.querySelector('.container');
+        let rdmNumber = Math.floor(Math.random() * 2000) + 1000;
+        container.innerHTML = `<h2 class= "card bg-gold">Complimenti, confermiamo il suo invito alla serata degli Oscar!
+        Ecco il tuo biglietto:</h2>
+        <div class="ticket">
+        <div class="ticket-content-wrapper">
+        <h1 class="text-center mt-5">TICKET</h1>
+        <div class="text-center mt-5 d-flex justify-content-center border border-top-3 border-dark">
+            <h1>SN${rdmNumber}</h1>
+        </div>
+        </div>
+        `
+        
         console.log('benvenuto');
+
     } else {
+        const container = document.querySelector('.container');
+        container.innerHTML = `<h2 class= "card bg-gold">Ci dispiace, lei non è nella lista degli invitati.</h2>`
         console.log('non sei stato invitato');
     }
 }
